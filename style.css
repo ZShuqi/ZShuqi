@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+h1 {
+  color:#025464;
+  font-family: Arial;
+  font-size: 30;
+  line-height: 3;
+  font-weight: bold;
+}
+
+h2 {
+  color: #6B72E1;
+  font-family: Arial;
+  font-size: 20;
+  padding: 0px 10px;
+}
+
+a {
+  color:#577D86;
+  text-decoration: none;
+}
+
+p {
+  padding-left: 10px;
+}
+
+.discover {
+  color:#577D86;
+  font-family: Arial;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #19A7CE;
+}
+
+.img_circle {
+  border-radius: 50%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  background-color: rgba(50, 115, 220, 0.1);
+  border: 2px grey solid;
+  border-radius: 10px;
+  box-shadow:2px 4px 10px rgb(140, 205, 202);
+  margin: 10px;
+  width: 900px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    background-color: rgba(50, 115, 220, 0.1);
+    border: 2px grey solid;
+    border-radius: 10px;
+    box-shadow:2px 4px 10px rgb(140, 205, 202);
+    margin: 10px;
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    background-color: rgba(50, 115, 220, 0.1);
+    border: 2px grey solid;
+    border-radius: 10px;
+    box-shadow:2px 4px 10px rgb(140, 205, 202);
+    margin: 10px;
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    background-color: rgba(50, 115, 220, 0.1);
+    border: 2px grey solid;
+    border-radius: 10px;
+    box-shadow:2px 4px 10px rgb(140, 205, 202);
+    margin: 10px;
+    width: 300px;
+  }
+}
+
+
+.profile_pic {
+  padding-left: 30px;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+  margin: 10px 10px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+div {
+  margin: 20px 10px;
+  padding: 0px 10px;
+}
